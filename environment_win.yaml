@@ -1,0 +1,91 @@
+
+name: science
+channels:
+  - conda-forge
+
+dependencies:
+  - python
+  - jupyter
+  - jupyterlab
+  - ipywidgets
+  - nodejs
+  - numpy
+  - matplotlib
+  - scikit-image
+  - pandas
+  - scipy
+  - astropy
+  - skyfield
+  - plotly
+  - streamlit
+  - conda-lock
+  - basemap
+  - cartopy
+  - jupyterlab-plotly-extension
+  - jupyterlab-git
+  - git
+  # - git-annex  # [not win]
+  - autopep8
+  - autovizwidget
+  - beautifulsoup4
+  - bitarray
+  - black
+  - bokeh
+  - cffi
+  - conda-build
+  - cython
+  - dask
+  - dask-core
+  - datashader
+  - ephem
+  - flake8
+  - flask
+  - future
+  - h5py
+  - hdf4
+  - hdf5
+  - holoviews
+  - hvplot
+  - ipython
+  - jedi
+  - kiwisolver
+  - mypy
+  - nbconvert
+  - numba
+  - notebook
+  - numexpr
+  - param
+  - pathlib
+  - pep8
+  - pyqt
+  - pytables
+  - pytest
+  - pytz
+  - pyzmq
+  - requests
+  - scikit-image
+  - scikit-learn
+  - scikit-rf
+  - scipy
+  - seaborn
+  - sphinx
+  - sqlite
+  - statsmodels
+  - streamz
+  - swig
+  - sympy
+  - tqdm
+  - traits
+  - typing
+  - typing_extensions
+  - tzdata
+  # - wget  # [not win]
+  - xarray
+  - yapf
+  - yt
+  - zeromq
+  - xlrd
+  - openpyxl
+  - ipykernel
+
+ 
