@@ -4,35 +4,20 @@ channels:
   - conda-forge
 
 dependencies:
-  - python
-  - jupyter
-  - jupyterlab
-  - ipywidgets
-  - nodejs
-  - numpy
-  - matplotlib
-  - scikit-image
-  - pandas
-  - scipy
-  - astropy
-  - skyfield
-  - plotly
-  - streamlit
-  - conda-lock
-  - basemap
-  - cartopy
-  - jupyterlab-plotly-extension
-  - jupyterlab-git
-  - git
+  # - basemap
   # - git-annex  # [not win]
+  # - wget  # [not win]
+  - astropy
   - autopep8
   - autovizwidget
   - beautifulsoup4
   - bitarray
   - black
   - bokeh
+  - cartopy
   - cffi
   - conda-build
+  - conda-lock
   - cython
   - dask
   - dask-core
@@ -41,25 +26,39 @@ dependencies:
   - flake8
   - flask
   - future
+  - git
   - h5py
   - hdf4
   - hdf5
   - holoviews
   - hvplot
+  - ipykernel
   - ipython
+  - ipywidgets
   - jedi
+  - jupyter
+  - jupyterlab
+  - jupyterlab-git
+  - jupyterlab-plotly-extension
   - kiwisolver
+  - matplotlib
   - mypy
   - nbconvert
-  - numba
+  - nodejs
   - notebook
+  - numba
   - numexpr
+  - numpy
+  - openpyxl
+  - pandas
   - param
   - pathlib
   - pep8
+  - plotly
   - pyqt
   - pytables
   - pytest
+  - python=3.10.*
   - pytz
   - pyzmq
   - requests
@@ -67,10 +66,14 @@ dependencies:
   - scikit-learn
   - scikit-rf
   - scipy
+  - scipy
   - seaborn
+  - skyfield
+  - skyfield
   - sphinx
   - sqlite
   - statsmodels
+  - streamlit
   - streamz
   - swig
   - sympy
@@ -79,13 +82,10 @@ dependencies:
   - typing
   - typing_extensions
   - tzdata
-  # - wget  # [not win]
   - xarray
+  - xlrd
   - yapf
   - yt
   - zeromq
-  - xlrd
-  - openpyxl
-  - ipykernel
 
  

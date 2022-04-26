@@ -4,35 +4,18 @@ channels:
   - conda-forge
 
 dependencies:
-  - python
-  - jupyter
-  - jupyterlab
-  - ipywidgets
-  - nodejs
-  - numpy
-  - matplotlib
-  - scikit-image
-  - pandas
-  - scipy
   - astropy
-  - skyfield
-  - plotly
-  - streamlit
-  - conda-lock
-  - basemap
-  - cartopy
-  - jupyterlab-plotly-extension
-  - jupyterlab-git
-  - git
-  - git-annex  # [not win]
   - autopep8
   - autovizwidget
+  - basemap
   - beautifulsoup4
   - bitarray
   - black
   - bokeh
+  - cartopy
   - cffi
   - conda-build
+  - conda-lock
   - cython
   - dask
   - dask-core
@@ -41,36 +24,55 @@ dependencies:
   - flake8
   - flask
   - future
+  - git
+  - git-annex  # [not win]
   - h5py
   - hdf4
   - hdf5
   - holoviews
   - hvplot
+  - ipykernel
   - ipython
+  - ipywidgets
   - jedi
+  - jupyter
+  - jupyterlab
+  - jupyterlab-git
+  - jupyterlab-plotly-extension
   - kiwisolver
+  - matplotlib
   - mypy
   - nbconvert
-  - numba
+  - nodejs
   - notebook
+  - numba
   - numexpr
+  - numpy
+  - openpyxl
+  - pandas
   - param
   - pathlib
   - pep8
+  - plotly
   - pyqt
   - pytables
   - pytest
+  - python
   - pytz
   - pyzmq
   - requests
   - scikit-image
+  - scikit-image
   - scikit-learn
   - scikit-rf
   - scipy
+  - scipy
   - seaborn
+  - skyfield
   - sphinx
   - sqlite
   - statsmodels
+  - streamlit
   - streamz
   - swig
   - sympy
@@ -81,11 +83,9 @@ dependencies:
   - tzdata
   - wget  # [not win]
   - xarray
+  - xlrd
   - yapf
   - yt
   - zeromq
-  - xlrd
-  - openpyxl
-  - ipykernel
 
  
