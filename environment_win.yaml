@@ -40,6 +40,7 @@ dependencies:
   - jupyterlab
   - jupyterlab-git
   - jupyterlab-plotly-extension
+  - jpype1
   - kiwisolver
   - matplotlib
   - mypy
@@ -49,6 +50,7 @@ dependencies:
   - numba
   - numexpr
   - numpy
+  - openjdk
   - openpyxl
   - pandas
   - param
