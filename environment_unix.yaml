@@ -16,6 +16,7 @@ dependencies:
   - cffi
   - conda-build
   - conda-lock
+  - conda-wrappers
   - cython
   - dask
   - dask-core
