@@ -7,11 +7,11 @@ dependencies:
   # - basemap
   # - git-annex  # [not win]
   # - wget  # [not win]
-  - astropy
+  # - astropy
   - autopep8
   - autovizwidget
   - beautifulsoup4
-  - bitarray
+  #- bitarray
   - black
   - bokeh
   - cartopy
@@ -60,7 +60,7 @@ dependencies:
   - pyqt
   - pytables
   - pytest
-  - python=3.10.*
+  - python=3.11.*
   - pytz
   - pyzmq
   - requests
@@ -68,9 +68,7 @@ dependencies:
   - scikit-learn
   - scikit-rf
   - scipy
-  - scipy
   - seaborn
-  - skyfield
   - skyfield
   - sphinx
   - sqlite
