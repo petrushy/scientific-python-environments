@@ -6,27 +6,30 @@ channels:
 dependencies:
   - astropy
   - autopep8
-  - autovizwidget
   - basemap
+  - basemap-data-hires
   - beautifulsoup4
   - bitarray
   - black
   - bokeh
   - cartopy
   - cffi
-  - conda-build
+  # - conda-build
   - conda-lock
   - conda-wrappers
+  - construct
   - cython
   - dask
   - dask-core
-  - datashader
+  # - datashader
   - ephem
+  - fastapi
   - flake8
   - flask
   - future
   - git
   - git-annex  # [not win]
+  - git-lfs
   - h5py
   - hdf4
   - hdf5
@@ -42,12 +45,13 @@ dependencies:
   - jupyterlab-plotly-extension
   - jpype1
   - kiwisolver
+  - loguru
   - matplotlib
   - mypy
   - nbconvert
   - nodejs
   - notebook
-  - numba
+  # - numba
   - numexpr
   - numpy
   - openjdk
@@ -58,17 +62,18 @@ dependencies:
   - pep8
   - plotly
   - pyqt
+  - pydantic
+  - pydantic-settings
   - pytables
   - pytest
-  - python
+  - python =3.12
   - pytz
   - pyzmq
   - requests
-  - scikit-image
+  - ruff
   - scikit-image
   - scikit-learn
   - scikit-rf
-  - scipy
   - scipy
   - seaborn
   - skyfield
