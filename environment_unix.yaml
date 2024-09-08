@@ -5,6 +5,7 @@ channels:
 
 dependencies:
   - astropy
+  - astropy-iers-data
   - autopep8
   - basemap
   - basemap-data-hires
@@ -40,13 +41,25 @@ dependencies:
   - ipywidgets
   - jedi
   - jupyter
+  - jupyter-lsp
+  - jupyter_client
+  - jupyter_console
+  - jupyter_core
+  - jupyter_events
+  - jupyter_server
+  - jupyter_server_terminals
   - jupyterlab
   - jupyterlab-git
+  - jupyterlab-variableinspector
+  - jupyterlab_server
   - jupyterlab-plotly-extension
+  - jupyterlab_widgets
   - jpype1
   - kiwisolver
   - loguru
   - matplotlib
+  - matplotlib-base
+  - matplotlib-inline
   - mypy
   - nbconvert
   - nodejs
@@ -61,6 +74,8 @@ dependencies:
   - pathlib
   - pep8
   - plotly
+  - pydantic
+  - pydantic-core
   - pyqt
   - pydantic
   - pydantic-settings
